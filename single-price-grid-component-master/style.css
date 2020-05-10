@@ -1,0 +1,65 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  display: grid;
+   min-height: 400px;
+  width: 50%;
+  min-width: 600px;
+  background: #fff;
+  padding: 40px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 55px 50px -20px #b6b6b6;
+  
+}
+
+.intro-title{
+  color:hsl(179, 62%, 43%);
+}
+.money-back{
+ color:hsl(71, 73%, 54%);
+}
+.description{
+color:  hsl(204, 43%, 93%);
+}
+.row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color:white;
+}
+.subscription{
+background:  hsl(179, 62%, 43%);
+}
+.btn{
+  background: hsl(71, 73%, 54%);
+  color: white;
+  border-style: none;
+}
+.why-us{
+background: hsla(179, 62%, 43%, 0.75);
+}
+.why-us li{
+    list-style-type: none;
+}
+@media screen and (max-width: 375px) {
+  .row-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+- Cyan: 
+- Bright Yellow: hsl(71, 73%, 54%)
+
+
+- Light Gray: hsl(204, 43%, 93%)
+- 
